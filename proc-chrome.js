@@ -4,9 +4,9 @@ export default (async (url='http://sheshbesh.nikfrank.com/', port=9222, timeout=
     cmd: [
       //'google-chrome',
       //'chromium-browser',
-      '../pptr-web/node_modules/puppeteer/.local-chromium/'+
-      'linux-756035/chrome-linux/chrome',
-      
+      //'../pptr-web/node_modules/puppeteer/.local-chromium/'+
+      //'linux-756035/chrome-linux/chrome',
+      'chrome',
       '--headless',
       '--remote-debugging-port='+port,
       url,
